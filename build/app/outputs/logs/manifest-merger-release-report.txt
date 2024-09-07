@@ -10,17 +10,17 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aw
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\awaus\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:3:9-38
+		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:3:9-30
 	android:icon
 		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:5:9-43
 	android:name
 		INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:4:9-42
 manifest
-ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
+ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\awaus\.gradle\caches\transforms-3\2a215381204751055df81b6269e717b7\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\awaus\.gradle\caches\transforms-3\f302e75fb7efd781bcf1a29281c188da\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\awaus\.gradle\caches\transforms-3\2c78d49fbcc625202f50a9334fbc9153\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -38,20 +38,20 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\awaus\.gradle\cache
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\awaus\.gradle\caches\transforms-3\17b52f3ce5be01faa0d2efabbb4c4451\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\awaus\.gradle\caches\transforms-3\1df962ed8245cc6ecc6dae80a3756f32\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\awaus\.gradle\caches\transforms-3\3d2f03fc996c2e0aa3dee5cfa3002cd1\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
-INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
 	package
 		INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
+		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
 		INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
+		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
 		INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-45:12
+		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:1-46:12
 		INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -67,6 +67,10 @@ data
 ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:42:13-50
 	android:mimeType
 		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:42:19-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:45:5-66
+	android:name
+		ADDED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:45:22-64
 uses-sdk
 INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml

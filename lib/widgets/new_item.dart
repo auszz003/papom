@@ -61,7 +61,15 @@ class _NewItemState extends State<NewItem> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Add new item'),
+        toolbarHeight: 100,
+        title: const Text(
+          'Add Item',
+          style: TextStyle(
+            fontFamily: 'HelveticaNowDisplay',
+            fontSize: 28,
+            color: Color.fromARGB(255, 200, 220, 222),
+          ),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(12),
@@ -69,10 +77,36 @@ class _NewItemState extends State<NewItem> {
           key: _formkey,
           child: Column(
             children: [
+              const SizedBox(
+                height: 8,
+              ),
               TextFormField(
+                style: const TextStyle(
+                  fontFamily: 'HelveticaNowDisplay',
+                  fontSize: 30,
+                  color: Color.fromARGB(255, 60, 60, 60),
+                ),
                 maxLength: 50,
                 decoration: const InputDecoration(
-                  label: Text("Name"),
+                  border: OutlineInputBorder(),
+                  errorStyle: TextStyle(
+                    fontFamily: 'HelveticaNowDisplay',
+                    fontSize: 12,
+                    color: Color.fromARGB(255, 255, 84, 84),
+                  ),
+                  counterStyle: TextStyle(
+                    fontFamily: 'HelveticaNowDisplay',
+                    fontSize: 12,
+                    color: Color.fromARGB(255, 60, 60, 60),
+                  ),
+                  label: Text(
+                    "Item Name",
+                    style: TextStyle(
+                      fontFamily: 'HelveticaNowDisplay',
+                      fontSize: 24,
+                      color: Color.fromARGB(255, 60, 60, 60),
+                    ),
+                  ),
                 ),
                 validator: (value) {
                   if (value == null ||
@@ -87,13 +121,34 @@ class _NewItemState extends State<NewItem> {
                   enteredName = value!;
                 },
               ),
+              const SizedBox(
+                height: 24,
+              ),
               Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Expanded(
                     child: TextFormField(
+                      style: const TextStyle(
+                        fontFamily: 'HelveticaNowDisplay',
+                        fontSize: 22,
+                        color: Color.fromARGB(255, 60, 60, 60),
+                      ),
                       decoration: const InputDecoration(
-                        label: Text("Quantity"),
+                        border: OutlineInputBorder(),
+                        errorStyle: TextStyle(
+                          fontFamily: 'HelveticaNowDisplay',
+                          fontSize: 12,
+                          color: Color.fromARGB(255, 255, 84, 84),
+                        ),
+                        label: Text(
+                          "Quantity",
+                          style: TextStyle(
+                            fontFamily: 'HelveticaNowDisplay',
+                            fontSize: 20,
+                            color: Color.fromARGB(255, 60, 60, 60),
+                          ),
+                        ),
                       ),
                       initialValue: enteredQuantity.toString(),
                       keyboardType: TextInputType.number,
@@ -116,6 +171,13 @@ class _NewItemState extends State<NewItem> {
                   ),
                   Expanded(
                     child: DropdownButtonFormField(
+                      iconEnabledColor: const Color.fromARGB(255, 29, 27, 32),
+                      dropdownColor: const Color.fromARGB(255, 235, 243, 236),
+                      style: const TextStyle(
+                        fontFamily: 'HelveticaNowDisplay',
+                        fontSize: 18,
+                        color: Color.fromARGB(255, 46, 74, 72),
+                      ),
                       value: selectedCategory,
                       items: [
                         for (final category in categories.entries)
@@ -129,7 +191,9 @@ class _NewItemState extends State<NewItem> {
                                   color: category.value.color,
                                 ),
                                 const SizedBox(width: 6),
-                                Text(category.value.title),
+                                Text(
+                                  category.value.title,
+                                ),
                               ],
                             ),
                           ),
@@ -143,6 +207,9 @@ class _NewItemState extends State<NewItem> {
                   )
                 ],
               ),
+              const SizedBox(
+                height: 8,
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
@@ -152,7 +219,14 @@ class _NewItemState extends State<NewItem> {
                         : () {
                             _formkey.currentState!.reset();
                           },
-                    child: const Text("Reset"),
+                    child: const Text(
+                      "Reset",
+                      style: TextStyle(
+                        fontFamily: 'HelveticaNowDisplay',
+                        fontSize: 16,
+                        color: Color.fromARGB(255, 46, 74, 72),
+                      ),
+                    ),
                   ),
                   ElevatedButton(
                     onPressed: _isSending ? null : _saveitem,
@@ -162,7 +236,15 @@ class _NewItemState extends State<NewItem> {
                             height: 16,
                             child: CircularProgressIndicator(),
                           )
-                        : const Text("Add Item"),
+                        : const Text(
+                            "Add Item",
+                            style: TextStyle(
+                              fontFamily: 'HelveticaNowDisplay',
+                              fontWeight: FontWeight.w800,
+                              fontSize: 16,
+                              color: Color.fromARGB(255, 46, 74, 72),
+                            ),
+                          ),
                   ),
                 ],
               )

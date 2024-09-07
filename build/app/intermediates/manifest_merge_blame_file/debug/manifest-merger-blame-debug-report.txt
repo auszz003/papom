@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\debug\AndroidManifest.xml:6:5-66
-15-->C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\debug\AndroidManifest.xml:6:22-64
+15-->C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:45:5-66
+15-->C:\Users\awaus\Documents\flutter Apps\shopping_list\android\app\src\main\AndroidManifest.xml:45:22-64
 16    <!--
 17     Required to query activities that can process text, see:
 18         https://developer.android.com/training/package-visibility and
@@ -42,7 +42,7 @@
 33-->[androidx.core:core:1.6.0] C:\Users\awaus\.gradle\caches\transforms-3\284a410c767ad6c7a2b0ffc8d8d85981\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 34        android:debuggable="true"
 35        android:icon="@mipmap/ic_launcher"
-36        android:label="shopping_list" >
+36        android:label="Papom" >
 37        <activity
 38            android:name="com.example.shopping_list.MainActivity"
 39            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
